@@ -1,0 +1,294 @@
+<body id="page-top" class="index">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">Just What You Expect</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">About Us</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">View Our Work</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">Testimonials</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#team">Meet Us</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Welcome!</div>
+            <div class="intro-heading">It's Nice To Meet You</div>
+        </div>
+    </div>
+  <script>
+    $( document ).ready(function() {
+      $(".carousel").carousel({ interval: 3000 });
+    });
+  </script>
+</header>
+
+<!-- Services Section -->
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">ABOUT US</h2>
+                <h3 class="section-subheading text-muted">Legendary Value, Extraordinary Service</h3>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                </span>
+                <h4 class="service-heading">Our Philosophy</h4>
+                <p class="text-muted">We are here to provide our customers with extraordinary lawn maintenance that fits within any budget and comes with unexcpected thoughfulness. Going the extra mile is standard for us.There are not contracts with Justwhatyouexpect; we earn future visits by delivering uncompromising services</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                </span>
+                <h4 class="service-heading">Basic Services</h4>
+                <p class="text-muted">All yards seviced by Justwhatyouexpect receive grass cutting to your specificed height; trimming around landscape items, all concrete surfaces, and plants; removal of grass from all walkways; ant bed treatment.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                </span>
+                <h4 class="service-heading">Other Services</h4>
+                <p class="text-muted">We also offer the following at an additional charge:
+                <li class="text-muted">Bagging of clippings</li>
+                    <li class="text-muted">Landscaping</li>
+                    <li class="text-muted">Trimming of Trees and Shrubs</li>
+                    <li class="text-muted">Power Washing</li>
+                    <li class="text-muted">Mildew Removal</li></p>
+            </div>
+        </div>
+    <div class="col-md-10 col-md-offset-1 text-center">
+        <h3 class="section-subheading">Due to various considerations, it is not practical to give "one size fits all pricing." When it comes to pricing, our goal is simple: If you have a current lawn service company, we want to offer you a better experience at a better price. If you have put off lawn service due to cost, we want to show you how easily you can have the lawn maintenance of you dreams at a cost you will be excited about.</h3>
+        </div>
+       </div>
+    </div>
+</section>
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">View our Work</h2>
+                <h3 class="section-subheading text-muted">See what makes us so special.</h3>
+            </div>
+        </div>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+        <%= image_tag('carousel/beforen1.jpg') %>
+      <div class="carousel-caption">
+          <h3>Lawn Care: Before</h3>
+      </div>
+    </div>
+    <div class="item">
+        <%= image_tag('carousel/aftern1.jpg') %>
+      <div class="carousel-caption">
+          <h3>Lawn Care: After</h3>
+      </div>
+    </div>
+    <div class="item">
+        <%= image_tag('carousel/beforen2.jpg') %>
+      <div class="carousel-caption">
+          <h3>Landscaping: Before</h3>
+      </div>
+    </div>
+    <div class="item">
+        <%= image_tag('carousel/aftern2.jpg') %>
+      <div class="carousel-caption">
+          <h3>Landscaping: After</h3>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Testimonials</h2>
+                <h3 class="section-subheading text-muted">Just because we don't brag on ourselves.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Joann</h4>
+                                <h4 class="subheading">Tuesday, June 30 15</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Just what you expect is a great lawn care company that goes way beyond what is expected of them. My grass looks great, my flower bed looks great, and the extra things that were done to my home look great. I plan to continue to use them as they are on point and their prices are great.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Renee</h4>
+                                <h4 class="subheading">Monday, May 25 15</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">I have a large yard that was in much disarray from overgrown shrubs to weeds as tall the fence. Thanks to Justwhatyouexpect, my yard is now perfectly manicured! Because of their attention to detail, I plan to remain with them for continued lawn maintenance.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Sherika W.</h4>
+                                <h4 class="subheading">Monday, May 18 15</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Was actually more than I expected. Punctual, thorough and very reasonable with pricing. Would highly recommend.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Demetrious Thomas</h4>
+                                <h4 class="subheading">Saturday, May 16 15</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Just what you expect is exactly that. He does an amazing job. He's fast, friendly, efficient, thorough, and affordable. I'll recommend to everyone.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>Be Part
+                                <br>Of Our
+                                <br>Story!</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Amazing Team</h2>
+                <h3 class="section-subheading text-muted">We work well with each other to work well for you.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="team-member">
+                    <%= image_tag("team/danielsm1.jpg", :class=> "img-responsive img-circle") %>
+                    <h4>Daniel Aikens</h4>
+                    <p class="text-muted">Owner/ Lawn Care Expert</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="team-member">
+                    <%= image_tag("team/danielsm2.jpg", :class=> "img-responsive img-circle") %>
+                    <h4>Daniel Aikens</h4>
+                    <p class="text-muted">Sales and Lead Manager</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Contact Us</h2>
+                <h3 class="section-subheading">We would love to hear from you.</h3>
+                <div class="col-lg-12 text-center"></div>
+                <h4 class= "section-heading">CALL US:</h4>
+                <h4 class= "section-heading">(318) 415-9084</h4>
+                <h4 class= "section-heading">EMAIL US:</h4>
+                <h4 class= "section-heading"><a href="mailto:justwhatyouexpect@yahoo.com?Subject=Hello" target="_top"></a>JUSTWHATYOUEXPECT@YAHOO.COM</h4>
+            </div>
+        </div>  
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+                <span class="copyright">Copyright &copy; www.justwhatyouexpect.com 2015</span>
+                <p>Created by <a href="http://www.jessicapuckett.com">Jessica Puckett</a></p>
+                <p><a href="mailto:contact@jessicapuckett.com?Subject=Hello Jessica" target="_top">contact@jessicapuckett.com</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+</body>
